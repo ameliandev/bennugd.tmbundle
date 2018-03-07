@@ -1,0 +1,50 @@
+{
+	"name": "bennugd",
+	"displayName": "BennuGD",
+	"description": "This extension provides language support for BennuGD.",
+	"version": "0.0.1",
+	"publisher": "Adrián Melián",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tronsoft/asp-html.git"
+	},
+	"galleryBanner": {
+		"color": "#0F6378",
+		"theme": "dark"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "bennugd",
+				"aliases": [
+					"BennuGD",
+					"bennugd"
+				],
+				"extensions": [
+					".prg"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "bennugd",
+				"scopeName": "source.prg",
+				"path": "./syntaxes/bennugd.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "bennugd",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
