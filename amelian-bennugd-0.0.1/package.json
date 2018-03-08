@@ -39,12 +39,6 @@
 				"scopeName": "source.prg",
 				"path": "./syntaxes/bennugd.tmLanguage"
 			}
-		],
-		"snippets": [
-			{
-				"language": "bennugd",
-				"path": "./snippets/snippets.json"
-			}
 		]
 	}
 }
