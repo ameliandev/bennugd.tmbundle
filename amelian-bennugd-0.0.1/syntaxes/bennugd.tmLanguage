@@ -217,13 +217,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i:\b(Frame|Set_fps|Fps|Signal|Clear_Screen|Delete_Text|Say|load_fnt|load_fpg|SET_WAV_VOLUME)\b)</string>
+			<string>(?i:\b(Frame|Set_fps|Fps|Signal|Clear_Screen|Delete_Text|Say|load_fnt|load_fpg|SET_WAV_VOLUME|Key|ftoa|itoa|Asc|Atof|Atoi|Chr|Find|Format|Lcase|Len|Lpad|Rpad|Strcasecmp|Strlen|Strrev|Substr|Trim|Ucase|Abs|Acos|Asin|Atan|Atan2|Cos|Fget_angle|Fget_dist|Finite|Get_distx|Get_disty|Isinf|Isnan|Near_angle|Pow|Sin|Sqrt|Tan)\b)</string>
 			<key>name</key>
 			<string>support.function.event.prg</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i:\b(Byte|Array|Char|Float|File|Graph|X|Y|Z|Alpha|CDate|CDbl|Chr|CInt|CLng|Conversions|Cos|CreateObject|CSng|CStr|Date|DateAdd|DateDiff|DatePart|DateSerial|DateValue|Day|Derived|Math|Escape|Eval|Exists|Exp|Filter|FormatCurrency|FormatDateTime|FormatNumber|FormatPercent|GetLocale|GetObject|GetRef|Hex|Hour|InputBox|InStr|InStrRev|Int|Fix|IsArray|IsDate|IsEmpty|IsNull|IsNumeric|IsObject|Item|Items|Join|Keys|LBound|LCase|Left|Len|LoadPicture|Log|LTrim|RTrim|Trim|Maths|Mid|Minute|Month|MonthName|MsgBox|Now|Oct|Remove|RemoveAll|Replace|RGB|Right|Rnd|Round|ScriptEngine|ScriptEngineBuildVersion|ScriptEngineMajorVersion|ScriptEngineMinorVersion|Second|SetLocale|Sgn|Sin|Space|Split|Sqr|StrComp|String|StrReverse|Tan|Time|Timer|TimeSerial|TimeValue|TypeName|UBound|UCase|Unescape|VarType|Weekday|WeekdayName|Year)\b)</string>
+			<string>(?i:\b(Byte|Array|Char|Float|Int|String|File|Graph|X|Y|Z|Alpha|Priority)\b)</string>
 			<key>name</key>
 			<string>support.function.vb.prg</string>
 		</dict>
